@@ -6,10 +6,6 @@
 
 (if window-system (set-exec-path-from-shell-PATH))
 
-(add-to-list 'package-archives
-             '("marmalade" . 
-               "http://marmalade-repo.org/packages/") t)
-
 ;; hook to redirect stdout to slime buffer
 (add-hook 'slime-connected-hook 'slime-redirect-inferior-output)
 
