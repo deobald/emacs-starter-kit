@@ -23,3 +23,7 @@
 (require 'rainbow-delimiters)
 (require 'rainbow-parens)
 
+;; go mode
+(add-to-list 'load-path (concat vendor-dir "/go"))
+(require 'go-mode-load)
+(add-hook 'before-save-hook #'gofmt-before-save)
