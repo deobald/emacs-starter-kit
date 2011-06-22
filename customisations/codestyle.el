@@ -13,7 +13,7 @@
                     :height 160)
 
 ;; show line numbers
-(linum-mode)
+(global-linum-mode t)
 
 ;; tabs are 2 spaces
 (setq-default tab-width 2)
