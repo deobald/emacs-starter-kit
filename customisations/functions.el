@@ -9,5 +9,3 @@
                            (progn (setq old-fullscreen current-value)
                                   'fullboth)))))  
 
-
-

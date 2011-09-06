@@ -3,4 +3,4 @@
 	url = http://github.com/demizer/color-theme-wombat.git
 [submodule "vendor/color-theme-solarized"]
 	path = vendor/color-theme-solarized
-	url = https://github.com/sellout/emacs-color-theme-solarized.git
+	url = git@github.com:deobald/emacs-color-theme-solarized.git
